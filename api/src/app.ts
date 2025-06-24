@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [
-  'https://alex-frontend-backend.vercel.app/',
+  'https://alex-frontend-backend.vercel.app',
   'http://localhost:4200'
   
 ];
