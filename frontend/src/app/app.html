@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<div class="main-content">
+  <router-outlet></router-outlet>
+</div>
+
+<button
+  class="scroll-to-top"
+  [class.hidden]="!showScrollButton"
+  (click)="scrollToTop()"
+  aria-label="Torna su"
+>
+  <span class="material-icons">arrow_upward</span>
+</button>
+
+<app-footer></app-footer>
